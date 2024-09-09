@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.link {
+  font-size: large;
+  font-weight: bolder;
+}
