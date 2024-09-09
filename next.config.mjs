@@ -1,14 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/home",
-        permanent: true,
-      },
-    ];
-  },
+  basePath: "/my-spa",
+  output: "export", // <=== enables static exports
+  reactStrictMode: true,
 };
 
 export default nextConfig;
