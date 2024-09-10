@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/home",
-        permanent: true,
-      },
-    ];
-  },
+    pageExtensions: [
+    "tsx",
+    "ts",
+    // FIXME: Next.js has a bug which does not resolve not-found.page.tsx correctly
+    // Instead, use `not-found.ts` as a workaround
+    // "ts" is required to resolve `not-found.ts`
+    // https://github.com/vercel/next.js/issues/65447
+  ],
   //basePath: "/my-spa",
   output: "export", // <=== enables static exports
   distDir: "dist",
