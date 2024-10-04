@@ -6,7 +6,7 @@ const ProjectsPage = () => {
       <ul>Frontend: React</ul>
       <ul>Database: MySQL</ul>
       <video controls muted>
-        <source src="/videos/myVideo.mp4" type="video/mp4" />
+        <source src="/my-spa/videos/myVideo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
