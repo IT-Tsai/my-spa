@@ -1,8 +1,6 @@
-import classes from "./page.module.css"
-
 const ProjectsPage = () => {
-  return <div className={classes.container}>
-    <div className={classes.projects}>
+  return <div className="container">
+    <div className="projects">
       <h4><u>Side Project</u></h4>
       <ul>Backend: Spring Boot</ul>
       <ul>Frontend: React</ul>

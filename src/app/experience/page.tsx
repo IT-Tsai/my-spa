@@ -3,9 +3,9 @@ import classes from "./page.module.css"
 import { SiLinkedin } from "react-icons/si";
 
 const ExperiencePage = () => {
-  return <div className={classes.container}>
+  return <div className="container">
     <h1>Projects</h1>
-    <div className={classes.projects}>
+    <div className="projects">
       <div className={classes.project}>
         <h4><u>HSE Vaccination Platform - Ireland - January 2021 - Present</u></h4>
         <ul>
