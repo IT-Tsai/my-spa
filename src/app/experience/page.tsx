@@ -18,7 +18,7 @@ const ExperiencePage = () => {
           <li>Data Analysis and Migration Script Development</li>
         </ul>
         <p>Technologies Used: <br />
-          <b>Salesforce (Apex, Lightning), Java, JavaScript, MuleSoft, SOQL, JIRA, Git, Slack</b></p>
+          <b>Salesforce (Apex, Lightning), Java, JavaScript, MuleSoft, SQL, JIRA, Git, Slack</b></p>
         <ul>Achieved:
           <li>Salesforce 2021 Partner Innovation Award for Services to Government & Public Sector: HSE for Republic of Ireland</li>
           <li>2022 MCA Awards for &apos;Change and Transformation in the Public Sector&apos;</li>
@@ -40,7 +40,7 @@ const ExperiencePage = () => {
           <li>Data Analysis and Migration Script Development</li>
         </ul>
         <p>Technologies Used: <br />
-          <b>Salesforce (Apex, Lightning), Java, JavaScript, SOQL, JIRA, Slack</b></p>
+          <b>Salesforce (Apex, Lightning), Java, JavaScript, SQL, JIRA, Slack</b></p>
         <ul>Achieved:
           <li>Migrated Poliswijzer from Salesforce Class to Lightning and enhanced their system&apos;s performance and user experience</li>
         </ul>
